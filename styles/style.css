@@ -18,6 +18,8 @@ html{
 }
 
 .head-top-left{
+    display: flex;
+    justify-content: flex-end;
     width: 250px;
     height: 250px;
     background-color: black;
@@ -25,3 +27,16 @@ html{
     margin-top: 20px;
     border-radius: 1000% 0 0 0;
 }
+
+.white-choya {
+    width: 25px;
+    height: 40px;
+}
+
+.white-choya-left {
+    background: linear-gradient(200deg, #fff, #000);
+}
+.white-choya-right {
+    background: linear-gradient(200deg, #fff, #000);
+}
+
