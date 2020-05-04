@@ -3,38 +3,49 @@ html{
     height: 100%;
 }
 
-.alien-head{
+body{
+    width: 100%;
+    height: 100%;
     display:flex;
-    position: relative;
     justify-content: center;
 }
 
-.head-top-right{
-        width: 250px;
-        height: 250px;
-        background-color: black;
-        display: flex;
-        margin-top: 20px;
-        border-radius: 0 1000% 0 0;
+.alien-head{
+    flex-direction: column;
+    align-items: center;
+    display: flex;
 }
 
-.head-top-left{
-    display: flex;
-    justify-content: flex-end;
-    width: 250px;
+.head-top{
+    width: 500px;
     height: 250px;
+    border-top-left-radius:500px;
+    border-top-right-radius: 500px;
     background-color: black;
-    display: flex;
-    margin-top: 20px;
-    border-radius: 1000% 0 0 0;
+    justify-content: center;
+    display:flex;
 }
 
 .ellipse {
-    position: absolute;
     top: 40px;
     width: 100px;
     height: 40px;
     background: radial-gradient(white,rgb(131, 131, 131) );
     border-radius: 70%;
+    margin-top: 15px;
 }
+
+.head-separator{
+    width:520px;
+    height: 15px;
+    background-color: black;
+    border-radius: 5px 5px 5px 5px;
+}
+
+
+
+
+
+
+
 
