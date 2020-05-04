@@ -29,14 +29,18 @@ html{
 }
 
 .white-choya {
-    width: 25px;
-    height: 40px;
+    width: 75px;
+    height: 96px;
+    margin-top: 20px;
 }
 
 .white-choya-left {
-    background: linear-gradient(200deg, #fff, #000);
+    background: linear-gradient(200deg, #fff, rgb(189, 188, 188));
+    border-radius: 1000% 0 0 1000%;
 }
 .white-choya-right {
-    background: linear-gradient(200deg, #fff, #000);
+    background: linear-gradient(200deg, #fff, rgb(189, 188, 188));
+    border-radius: 0 1000% 1000% 0;
+
 }
 
