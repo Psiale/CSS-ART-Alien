@@ -5,6 +5,7 @@ html{
 
 .alien-head{
     display:flex;
+    position: relative;
     justify-content: center;
 }
 
@@ -28,15 +29,12 @@ html{
     border-radius: 1000% 0 0 0;
 }
 
-.white-choya {
-    width: 25px;
+.ellipse {
+    position: absolute;
+    top: 40px;
+    width: 100px;
     height: 40px;
-}
-
-.white-choya-left {
-    background: linear-gradient(200deg, #fff, #000);
-}
-.white-choya-right {
-    background: linear-gradient(200deg, #fff, #000);
+    background: radial-gradient(white,rgb(131, 131, 131) );
+    border-radius: 70%;
 }
 
