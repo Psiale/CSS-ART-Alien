@@ -83,14 +83,23 @@ body{
 }
 
 .outline-left{
+    left: 97px;
+    transform: rotate(167deg);
+}
+
+.outline-right {
+    right: 97px;
+    transform: rotate(14deg);
+}
+
+.outline-skin {
     width: 80px;
     height: 206px;
     background-color: white;
     position: absolute;
-    left: 97px;
     top: 271px;
-    transform: rotate(166deg);
 }
+
 
 
 
