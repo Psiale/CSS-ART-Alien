@@ -11,6 +11,8 @@ body{
 }
 
 .alien-head{
+    width: 800px;
+    position: relative;
     flex-direction: column;
     align-items: center;
     display: flex;
@@ -85,8 +87,8 @@ body{
     height: 206px;
     background-color: white;
     position: absolute;
-    left: 587px;
-    top: 280px;
+    left: 97px;
+    top: 271px;
     transform: rotate(166deg);
 }
 
