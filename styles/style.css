@@ -80,9 +80,14 @@ body{
     border-radius: 45px 45px 0 0;
 }
 
-.outliner-left{
+.outline-left{
     width: 80px;
-    height: ;
+    height: 206px;
+    background-color: white;
+    position: absolute;
+    left: 587px;
+    top: 280px;
+    transform: rotate(166deg);
 }
 
 
