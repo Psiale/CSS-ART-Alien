@@ -83,11 +83,16 @@ body{
 
 .tooth-item-top {
         background: linear-gradient(black, white);
-        border-radius: 0 0 45px 45px;
+        border-top: 30px solid white;
+        border-right: 15px solid transparent;
+        border-left:15px solid transparent;
+
 }
 .tooth-item-bottom {
     background: linear-gradient(white, black);
-    border-radius: 45px 45px 0 0;
+    border-bottom: 30px solid white;
+    border-right: 15px solid transparent;
+    border-left:15px solid transparent;
 }
 
 .outline-left{
