@@ -74,10 +74,25 @@ body{
     height: 60px;
 }
 
-.tooth-line-top {
-    background-color: red;
-    height: 40px;
+.tooth-line-item-container{
+    width: 250px;
+    height: 100px;
     display: flex;
+    flex-direction: column;
+}
+
+.tooth-item-container{
+    display:flex;
+}
+
+.tooth-line-top {
+    background-color: white;
+    height: 10px;
+    width: 250px;
+}
+
+.tooth-line-top:hover{
+    height: 20px;
 }
 
 .tooth-item {
