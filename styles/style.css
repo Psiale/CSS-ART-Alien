@@ -63,37 +63,19 @@ body{
     justify-content: space-between;
 }
 
-.tooth {
+.tooths {
     width: 100%;
     height: 28px;
     display: flex;
-    
+    transition: height .2s;
+    transition-timing-function: ease-in;
 }
 
-.mouth-container:hover> .teeth > .tooth {
+.mouth-container:hover> .teeth > .tooths {
     height: 60px;
 }
 
-.tooth-line-item-container{
-    width: 250px;
-    height: 100px;
-    display: flex;
-    flex-direction: column;
-}
 
-.tooth-item-container{
-    display:flex;
-}
-
-.tooth-line-top {
-    background-color: white;
-    height: 10px;
-    width: 250px;
-}
-
-.tooth-line-top:hover{
-    height: 20px;
-}
 
 .tooth-item {
     width: 13%;
@@ -101,18 +83,11 @@ body{
 
 .tooth-item-top {
         background: linear-gradient(black, white);
-        transition: height .2s;
-        transition-timing-function: ease-in;
-        border-top: 30px solid white;
-        border-right: 15px solid transparent;
-        border-left:15px solid transparent;
-
+        border-radius: 0 0 45px 45px;
 }
 .tooth-item-bottom {
     background: linear-gradient(white, black);
-    border-bottom: 30px solid white;
-    border-right: 15px solid transparent;
-    border-left:15px solid transparent;
+    border-radius: 45px 45px 0 0;
 }
 
 .outline-left{
